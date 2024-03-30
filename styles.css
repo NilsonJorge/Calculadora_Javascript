@@ -1,0 +1,73 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    font-family: Courier, monospace;
+  }
+  
+  .calculadora {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 600px; /* Defina a largura máxima desejada */
+    width: 90%; /* Defina a largura desejada */
+    background-color: gray;
+    max-width: 176px;
+  }
+  .texto{
+    background-color: azure;
+    height: 30px;
+    font-size: 20px;
+    text-align: right;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: black;
+    font-weight: bold;
+    width: 150px;
+    overflow: hidden;
+  }
+  .number-igual{
+    display: flex;
+    margin-left: 3px;
+  }
+  button{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    background-color: aquamarine;
+    border: 2px solid black;
+  }
+  button:hover{
+    background-color: aqua;
+  }
+  .igual{
+    background-color: red;
+    border: 2px solid black;
+    height: 130px;
+  }
+  .igual_div{
+    margin-left: 9px;
+    height: 130px;
+  }
+  .igual:hover{
+    background-color: orangered;
+  }
+  .number{
+    border: 2px solid black;
+  }
+ 
+  .option{
+    border: 2px solid black;
+  }
+
+  .operator{
+    background-color: orange;
+  }
+  .operator:hover{
+    background-color: orangered;
+  }
